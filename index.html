@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- Meta Tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 
+	This gives the browser instructions on how to control the page's dimensions and scaling. 
+	If you want your bootstrap styled website to be responsive on mobile then be sure to add the following meta tag to your <head>  element, above the <title>  tag.
+	More info on https://www.w3schools.com/css/css_rwd_viewport.asp 
+	-->
+	<title>Breakpoints</title>
+
+	<meta charset="utf-8"> 
+	<meta name="author" content="Johan Arrieta">
+	<meta name="description" content="This is the description that shows in the browser below the title of the page. It is important to include this to help improve searchability of the page.">
+
+	<!-- BootStrap and Font Awesome CDNs -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Breakpoints.css">
+</head>
+<body>
+<header>
+
+	<nav class="navbar navbar-expand-lg justify-content-end">
+	  <a class="navbar-brand text-white" href="#">
+	    <i class="fab fa-bootstrap"></i> Bootstrap Responsive Layout
+	  </a>
+	  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon text-white"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link text-white" href="#">Home</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link text-white" href="#">Contact</a>
+	      </li>
+	  </div> -->
+	</nav>
+
+</header>
+<main>
+	<div class="container text-center text-white">
+		<div class="transparency">
+			<h1 class="display3">Testing Responsive Breakpoints with BootStrap</h1>
+			<p class="smallerText">The buttons below will change position, marging and padding whenever the screen size changes. There are 5 breakpoints considered in BootStrap:
+				<ul class="smallerText">
+					<li>Extra small devices (portrait phones, less than 576px)</li>
+					<li>Small devices (landscape phones, 576px and up)</li>
+					<li>Medium devices (tablets, 768px and up)</li>
+					<li>Large devices (desktops, 992px and up)</li>
+					<li>Extra large devices (large desktops, 1200px and up</li>
+				</ul>
+			</p>
+		</div>
+		<h2 class="center w-75 my-2 pb-2 pt-2 display-5 text-dark bg-light border border-light rounded-pill transparency">Responsive Breakpoints</h2>
+		<div class="row">
+			<button class="btn btn-primary btn-sm border rounded-pill col-lg-4 col-md-6 col-sm-12 my-2 p-4 transparency">We</button>
+			<button class="btn btn-secondary btn-sm border rounded-pill col-lg-4 col-md-5 col-sm-4 my-2 p-1 transparency">Change</button>
+			<button class="btn btn-success btn-sm border rounded-pill col-lg-3 col-md-2 col-sm-3 my-2 p-4 transparency">On</button>
+			<button class="btn btn-danger btn-sm border rounded-pill col-lg-4 col-md-3 col-sm-4 my-2 p-lg-0 p-1 transparency">Each</button>
+			<button class="btn btn-warning btn-sm border rounded-pill col-lg-7 col-md-6 col-sm-12 my-2 text-white p-4 transparency">Breakpoint</button>
+		</div>
+		<div class="jumbotron jumbotron-fluid">
+			<h3>Adding more text to fill space</h3>
+			<p class="smallerText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+		
+	</div>
+</main>
+
+<!-- BootStrap JS and JQuery CDNs -->
+<!-- The JQuery Tag needs to go first (before the BootStrap JavaScript Tag) otherwise the functionality won't run properly -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
