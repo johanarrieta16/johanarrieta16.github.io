@@ -1,0 +1,283 @@
+/*Font Families/Google Fonts/ and Main Styles*/
+/*
+font-family: 'Patrick Hand', cursive;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'MuseoModerno', cursive;
+*/
+
+.textStyle{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+}
+a .textStyle:hover{
+	color: black;
+}
+body{
+	margin-right: 0;
+}
+
+/*Font Families/Google Fonts/ and Main Styles*/
+
+/*HEADER STYLES*/
+
+#johanCenterLogo{
+	padding-top: 5px;
+	margin: 10px 0;
+	font-family: 'Pacifico', cursive;
+	font-size: 5rem;
+	font-weight: 400;
+	position: relative;
+}
+/*Animation on Logo*/
+/*#johanCenterLogo:hover{
+	transition: 0.8s;
+	background: rgb(51, 102, 153);
+	border: 1px solid white;
+	border-radius: 50px;
+	padding: 5px;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;*/
+	/*font-family: 'Pacifico', cursive;*/
+	/*font-family: 'Permanent Marker', cursive;*/
+/*}*/
+
+@media (max-width: 991px) {
+	.stretch{
+		display: block !important;
+		width: 100% !important;
+		margin: 0 auto; 
+	}
+}
+#secondNav a{
+	color: white;
+	font-size: 1.5rem;
+}
+@media (max-width: 991px) {
+	#secondNav a:hover{
+		display: block;
+		width: 35%;
+		margin: 0 auto;
+	}
+}
+#secondNav a:hover{
+text-decoration: underline wavy;
+background-color: rgb(51, 102, 153);
+-webkit-transition: color .25s linear;
+transition: color .25s linear;
+transition: background-color .15s linear .1s;
+font-family: 'Lilita One', cursive;
+border: 1px solid white;
+border-radius: 20px;
+}
+#secondNav:hover a{
+  filter:blur(3px);
+  opacity:.8;
+  transform: scale(.98);
+  box-shadow:none;
+}
+#secondNav:hover a:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  transition: 0.5s;
+}
+.headerStyle:hover , .top:hover{
+	background-color: rgb(51, 102, 153);
+	-webkit-transition: color .25s linear;
+	transition: color .25s linear;
+	transition: background-color .15s linear .1s;
+	transition: 0.3s;
+	font-family: 'Lilita One', cursive;
+	font-size: 1.2rem;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 3px 10px;
+	color: white;
+	text-decoration: none;
+}
+/*HEADER STYLES*/
+
+
+/*ABOUT STYLES*/
+
+.mainImg{
+	border-radius: 30%;
+	margin: 10px 0;
+	width: 100%;
+	height: auto;
+}
+.mainImg:hover{
+	background: rgb(51, 102, 153);
+	border-radius: 50%;
+	border: 1px solid black;
+	transition: 0.5s all;
+}
+.textBoxStyle{
+	background-color: rgba(0,0,0,0.7);
+	padding: 8px;
+	font-size: 1.3rem;
+	margin: 10px;
+	border: 1px 1px 0 1px solid black;
+	border-radius: 0 25px 25px 0;
+}
+.yellowHighlight{
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
+}
+.yellowHighlight:hover {
+	transition: 0.5s;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 1px 5px;
+	font-family: 'Lilita One', cursive;
+	background: rgb(51, 102, 153);
+}
+.top{
+	background: #fff;
+	color: black;
+	font-size: 1rem;
+	font-weight: 400;
+	float: right;
+	margin-top: 5px;
+	border: 3px solid rgb(51, 102, 153);
+	border-radius: 3px;
+}
+
+/*ABOUT STYLES*/
+
+/*SKILLS STYLES*/
+.subtitleStyle{
+	font-family: 'Lilita One', cursive;
+	font-size: 2rem;
+}
+.subtitleStyle:hover{
+	display: inline;
+	background: rgb(51, 102, 153);
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	color: white;
+}
+
+
+
+
+/*Figure this out - Para que SKILLS se vea across the screen en mobile
+@media (max-width: 991px) {
+	h2 .d-inline{
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+}*/
+
+
+
+
+
+div .card-body{
+	padding: 0;
+}
+div .card{
+	border: 0;
+}
+.card-title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.3rem;
+	margin: 12px 0;
+}
+.textBoxStyleCards{
+	color: black;
+	padding: 10px;
+	font-size: 1.2rem;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.textBoxStyleCards:hover{
+	background-color: rgb(51, 102, 153);
+	color: white;
+	-webkit-transition: color .25s linear;
+	transition: color .25s linear;
+	transition: background-color .15s linear .1s;
+	transition: 0.3s;
+	font-family: 'Lilita One', cursive;
+	transition: 0.5s;
+}
+.textBoxStyleCards:hover .greenHighlight{
+	background-image: none;
+}
+.fa-html5{
+	color: #e54c21;
+	border: 2px solid #e54c21;
+	border-radius: 8px;
+	width: 50%;
+	margin: 0 auto;
+}
+.fa-css3-alt{
+	color: #1572b6;
+	border: 2px solid #1572b6;
+	border-radius: 8px;
+	width: 50%;
+	margin: 0 auto;
+}
+.fa-bootstrap{
+	color: #563d7c;
+	border: 2px solid #563d7c;
+	border-radius: 8px;
+	width: 50%;
+	margin: 0 auto;
+}
+.fa-chalkboard-teacher{
+	color: #009999;
+	border: 2px solid #009999;
+	border-radius: 8px;
+	padding: 5px 0;
+	width: 50%;
+	margin: 0 auto;
+}
+.fa-laptop-code{
+	color: #808080;
+	border: 2px solid #808080;
+	border-radius: 8px;
+	padding: 5px 0;
+	width: 50%;
+	margin: 0 auto;
+}
+.fa-funnel-dollar{
+	color: #009933;
+	border: 2px solid #009933;
+	border-radius: 8px;
+	padding: 5px 0;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+/*Footer Styles*/
+
+.textBoxStyleFooter{
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	padding: 10px 10px;
+	font-size: 1.3rem;
+	margin: 50px 0 0 0;
+}
+.textBoxStyleFooter h5{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.textBoxStyleFooter a:hover{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}

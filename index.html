@@ -8,7 +8,7 @@
 	If you want your bootstrap styled website to be responsive on mobile then be sure to add the following meta tag to your <head>  element, above the <title>  tag.
 	More info on https://www.w3schools.com/css/css_rwd_viewport.asp 
 	-->
-	<title>Breakpoints</title>
+	<title>Johan Arrieta</title>
 
 	<meta charset="utf-8"> 
 	<meta name="author" content="Johan Arrieta">
@@ -17,67 +17,153 @@
 	<!-- BootStrap and Font Awesome CDNs -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
-	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="Breakpoints.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+<a name="top"></a>
 <header>
-
-	<nav class="navbar navbar-expand-lg justify-content-end">
-	  <a class="navbar-brand text-white" href="#">
-	    <i class="fab fa-bootstrap"></i> Bootstrap Responsive Layout
-	  </a>
-	  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon text-white"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link text-white" href="#">Home</a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link text-white" href="#">Contact</a>
-	      </li>
-	  </div> -->
+	<nav id="firstNav" class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+		<div class="container">
+		  <h1 class="navbar-brand text-center textStyle">Hello World!<br><span class="headerStyle">My name is Johan Arrieta</span></h1>
+		  <button class="navbar-toggler d-lg-none mx-2 border border-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="nav collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+			<a class="nav-link nav-item btn btn-outline-light my-2 mx-2 my-sm-1 stretch" href="https://www.linkedin.com/in/johan-arrieta/" target="_blank">		<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a class="nav-link nav-item btn btn-outline-light my-2 mx-2 my-sm-1 stretch" href="https://github.com/johanarrieta16" target="_blank">
+				<i class="fab fa-github"></i>
+			</a>
+			<a class="nav-link nav-item btn btn-outline-light my-2 mx-2 my-sm-1 stretch" href="mailto:johanarrieta16@gmail.com" target="_blank">
+				<span class="textStyle">Email Me </span><i class="far fa-envelope"></i>
+			</a>
+		</div>
+	  </div>
 	</nav>
-
+	<div class="container">
+	<h2 id="johanCenterLogo" class="text-center">Johan</h2>
+	<nav id="secondNav" class="navbar navbar-dark bg-dark row border rounded-pill justify-content-around text-center align-items-center textStyle">
+		<a class="nav-link col-md-3" href="#about">About</a>
+		<a class="nav-link col-md-3" href="#skills">Skills</a>
+		<a class="nav-link col-md-3" href="#contact">Contact</a>
+	</nav>
+	</div>
 </header>
-<main>
-	<div class="container text-center text-white">
-		<div class="transparency">
-			<h1 class="display3">Testing Responsive Breakpoints with BootStrap</h1>
-			<p class="smallerText">The buttons below will change position, marging and padding whenever the screen size changes. There are 5 breakpoints considered in BootStrap:
-				<ul class="smallerText">
-					<li>Extra small devices (portrait phones, less than 576px)</li>
-					<li>Small devices (landscape phones, 576px and up)</li>
-					<li>Medium devices (tablets, 768px and up)</li>
-					<li>Large devices (desktops, 992px and up)</li>
-					<li>Extra large devices (large desktops, 1200px and up</li>
-				</ul>
-			</p>
+
+<main class="container">
+	<section>
+		<div id="about" class="row justify-content-around align-items-center my-5">
+			<div class="col-7 col-md-6 col-lg-4 col-xl-3 order-1 order-md-2">
+				<img src="johanTransparent.gif" class="mainImg">
+			</div>
+			<div class="col-12 col-md-6 col-lg-6 order-2 order-md-1">
+				<p class="textStyle textBoxStyle"><span class="yellowHighlight">Experienced Developer</span> with a background in Email Marketing and Content Development. Bringing to the table several years of experience working with internal/external clients, and stakeholders like Program Managers, QA Analysts, and others. I am also a training enthusiast, always involved in developing my peers with coaching... -> add more description about training experience and project management.</p>
+			</div>
 		</div>
-		<h2 class="center w-75 my-2 pb-2 pt-2 display-5 text-dark bg-light border border-light rounded-pill transparency">Responsive Breakpoints</h2>
-		<div class="row">
-			<button class="btn btn-primary btn-sm border rounded-pill col-lg-4 col-md-6 col-sm-12 my-2 p-4 transparency">We</button>
-			<button class="btn btn-secondary btn-sm border rounded-pill col-lg-4 col-md-5 col-sm-4 my-2 p-1 transparency">Change</button>
-			<button class="btn btn-success btn-sm border rounded-pill col-lg-3 col-md-2 col-sm-3 my-2 p-4 transparency">On</button>
-			<button class="btn btn-danger btn-sm border rounded-pill col-lg-4 col-md-3 col-sm-4 my-2 p-lg-0 p-1 transparency">Each</button>
-			<button class="btn btn-warning btn-sm border rounded-pill col-lg-7 col-md-6 col-sm-12 my-2 text-white p-4 transparency">Breakpoint</button>
+	</section>
+
+	<a href="#top" class="top px-4 d-inline textStyle">back to top</a><br>
+	<section>
+		<div id="skills">
+			<h2 class="subtitleStyle d-inline">Skills</h2>
+			<div class="row justify-content-around align-items-start my-5">
+				<div class="col-7 col-md-6 col-lg-4 align-self-md-start align-self-lg-center my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fab fa-html5 fa-5x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">HTML</h5>
+					    <p class="textStyle textBoxStyleCards">3+ years of experience working with HTML for Email Marketing Campaigns and <strong class="greenHighlight">HTML5</strong> for websites.</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-7 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fab fa-css3-alt fa-5x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">CSS</h5>
+					    <p class="textStyle textBoxStyleCards">Use of <strong class="greenHighlight">CSS</strong> to create styles ranging from simple changes to HTML tags, to creating animations like the ones on this webiste, using media queries and all things responsive.</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-7 col-md-6 col-lg-4 align-self-md-start align-self-lg-center my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fab fa-bootstrap fa-5x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">BootStrap</h5>
+					    <p class="textStyle textBoxStyleCards">Using CSS Framework <strong class="greenHighlight">BootStrap</strong> to create responsive and better looking websites in a more efficient manner.</p>
+					  </div>
+					</div>
+				</div>
+
+				<!-- This second row is for responsive testing purposes -->
+
+				<div class="col-7 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fas fa-chalkboard-teacher fa-4x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">Training</h5>
+					    <p class="textStyle textBoxStyleCards">Description about <strong class="greenHighlight">Training</strong></p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-7 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fas fa-laptop-code fa-4x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">Content Management Systems</h5>
+					    <p class="textStyle textBoxStyleCards">Description about experience with <strong class="greenHighlight">CMS</strong></p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-7 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fas fa-funnel-dollar fa-4x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">Digital Marketing</h5>
+					    <p class="textStyle textBoxStyleCards">Description about <strong class="greenHighlight">Digital Marketing</strong>.</p>
+					  </div>
+					</div>
+				</div>
+
+
+			</div>
 		</div>
-		<div class="jumbotron jumbotron-fluid">
-			<h3>Adding more text to fill space</h3>
-			<p class="smallerText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
-	</div>
-		
-	</div>
+	</section>
+	<a href="#top" class="top px-4 d-block textStyle">back to top</a><br>
 </main>
+
+<footer>
+		<div id="contact">
+			<div class="row justify-content-around justify-content-md-between align-items-start textBoxStyleFooter textStyle">
+				<div class="col-10 col-md-3">
+						<h5 class="textStyle mt-4">Address</h5>
+						<i class="far fa-map-marker-check"></i><p class="textStyle d-inline"> &nbsp;El Coyol, Alajuela, Costa Rica</p>
+				</div>
+				<div class="col-10 col-md-4">
+					<h5 class="textStyle mt-4">Contact Information</h5>
+					<i class="far fa-envelope"></i><a href="mailto:johanarrieta16@gmail.com" class="textStyle"> &nbsp;johanarrieta16@gmail.com</a><br>
+					<i class="fas fa-phone-square-alt d-inline"></i><a href="call" class="textStyle"> &nbsp;(506) 8417-5595</a>
+				</div>
+				<div class="col-10 col-md-4">
+					<h5 class="textStyle mt-4">Links</h5>
+					<i class="fab fa-linkedin-in d-inline"></i><a href="https://www.linkedin.com/in/johan-arrieta/" target="_blank" class="textStyle d-inline"> &nbsp;LinkedIn</a><br>
+					<i class="fab fa-github d-inline"></i><a href="https://github.com/johanarrieta16" target="_blank" class="textStyle d-inline"> &nbsp;GitHub</a><br>
+					<i class="far fa-file"></i><a href="download link" class="textStyle"> &nbsp;Download my Resume</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 
 <!-- BootStrap JS and JQuery CDNs -->
 <!-- The JQuery Tag needs to go first (before the BootStrap JavaScript Tag) otherwise the functionality won't run properly -->
