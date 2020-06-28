@@ -16,6 +16,12 @@ font-family: 'MuseoModerno', cursive;
 	font-weight: 300;
 	font-size: 1rem;
 }
+.textStyleAbout{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.1rem !important;
+}
 a .textStyle:hover{
 	color: black;
 }
@@ -50,7 +56,6 @@ body{
 	/*font-family: 'Pacifico', cursive;*/
 	/*font-family: 'Permanent Marker', cursive;*/
 /*}*/
-
 @media (max-width: 991px) {
 	.stretch{
 		display: block !important;
@@ -79,17 +84,22 @@ font-family: 'Lilita One', cursive;
 border: 1px solid white;
 border-radius: 20px;
 }
-#secondNav:hover a{
-  filter:blur(3px);
-  opacity:.8;
-  transform: scale(.98);
-  box-shadow:none;
+@media (min-width: 991px) {
+	#secondNav:hover a{
+	  filter:blur(3px);
+	  opacity:.8;
+	  transform: scale(.98);
+	  box-shadow:none;
+	}
+	#secondNav:hover a:hover{
+	  transform:scale(1);
+	  filter:blur(0px);
+	  opacity:1;
+	  transition: 0.5s;
+	}
 }
-#secondNav:hover a:hover{
-  transform:scale(1);
-  filter:blur(0px);
-  opacity:1;
-  transition: 0.5s;
+.headerStyle:hover{
+	font-size: 1.5rem;
 }
 .headerStyle:hover , .top:hover{
 	background-color: rgb(51, 102, 153);
@@ -98,7 +108,6 @@ border-radius: 20px;
 	transition: background-color .15s linear .1s;
 	transition: 0.3s;
 	font-family: 'Lilita One', cursive;
-	font-size: 1.2rem;
 	border: 1px solid white;
 	border-radius: 20px;
 	padding: 3px 10px;
@@ -130,16 +139,16 @@ border-radius: 20px;
 	border: 1px 1px 0 1px solid black;
 	border-radius: 0 25px 25px 0;
 }
-.yellowHighlight{
-	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
+.highlight{
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #009973 85%, rgba(255, 255, 255, 0));
 }
-.yellowHighlight:hover {
-	transition: 0.5s;
+.highlight:hover {
 	border: 1px solid white;
 	border-radius: 10px;
 	padding: 1px 5px;
 	font-family: 'Lilita One', cursive;
 	background: rgb(51, 102, 153);
+	transition: 0.5s;
 }
 .top{
 	background: #fff;
@@ -168,9 +177,9 @@ border-radius: 20px;
 	color: white;
 }
 
-
-
-
+#skills{
+	margin-top: 50px;
+}
 /*Figure this out - Para que SKILLS se vea across the screen en mobile
 @media (max-width: 991px) {
 	h2 .d-inline{
@@ -179,9 +188,6 @@ border-radius: 20px;
 		margin: 0 auto;
 	}
 }*/
-
-
-
 
 
 div .card-body{
@@ -212,9 +218,6 @@ div .card{
 	transition: 0.3s;
 	font-family: 'Lilita One', cursive;
 	transition: 0.5s;
-}
-.textBoxStyleCards:hover .greenHighlight{
-	background-image: none;
 }
 .fa-html5{
 	color: #e54c21;
@@ -261,7 +264,30 @@ div .card{
 	width: 50%;
 	margin: 0 auto;
 }
-
+.fa-windows{
+	color: #eb3c03;
+	border: 2px solid #eb3c03;
+	border-radius: 8px;
+	padding: 5px 0;
+	width: 50%;
+	margin: 0 auto;
+}
+.fa-adobe{
+	color: #72c3fe;
+	border: 2px solid #040036;
+	border-radius: 8px;
+	padding: 5px 0;
+	width: 50%;
+	margin: 0 auto;
+}
+.fa-tasks{
+	color: #1ba466;
+	border: 2px solid #06793c;
+	border-radius: 8px;
+	padding: 5px 0;
+	width: 50%;
+	margin: 0 auto;
+}
 
 /*Footer Styles*/
 
@@ -280,4 +306,43 @@ div .card{
 	color: white;
 	text-decoration: none;
 	padding: 10px;
+}
+
+/*Change some animations on mobile*/
+
+@media (max-width: 767px) {
+	.headerStyle , .highlight{
+		border: 1px solid white;
+		border-radius: 10px;
+		padding: 1px 5px;
+		font-family: 'Lilita One', cursive;
+		background: rgb(51, 102, 153);
+	}
+	.headerStyle{
+		font-size: 1.4rem;
+	}
+	.row .subtitleStyle{
+		font-family: 'Lilita One', cursive;
+		font-size: 2rem;
+		background: rgb(51, 102, 153);
+		border: 1px solid black;
+		border-radius: 10px;
+		padding: 5px;
+		color: white;
+	}
+	.mainImg{
+	background: rgb(51, 102, 153);
+	border-radius: 50%;
+	border: 4px solid black;
+	}
+	.top{
+	background-color: rgb(51, 102, 153);
+	font-family: 'Lilita One', cursive;
+	font-size: 1.2rem;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 3px 10px;
+	color: white;
+	text-decoration: none;
+	}
 }

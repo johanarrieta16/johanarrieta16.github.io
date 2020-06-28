@@ -34,7 +34,7 @@
 <header>
 	<nav id="firstNav" class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
 		<div class="container">
-		  <h1 class="navbar-brand text-center textStyle">Hello World!<br><span class="headerStyle">My name is Johan Arrieta</span></h1>
+		  <h1 class="navbar-brand text-center"><span class="headerStyle">Hello World!</span></h1>
 		  <button class="navbar-toggler d-lg-none mx-2 border border-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -63,35 +63,43 @@
 <main class="container">
 	<section>
 		<div id="about" class="row justify-content-around align-items-center my-5">
-			<div class="col-7 col-md-6 col-lg-4 col-xl-3 order-1 order-md-2">
+			<div class="col-6 col-md-5 col-lg-4 col-xl-3 order-1 order-lg-2">
 				<img src="johanTransparent.gif" class="mainImg">
 			</div>
-			<div class="col-12 col-md-6 col-lg-6 order-2 order-md-1">
-				<p class="textStyle textBoxStyle"><span class="yellowHighlight">Experienced Developer</span> with a background in Email Marketing and Content Development. Bringing to the table several years of experience working with internal/external clients, and stakeholders like Program Managers, QA Analysts, and others. I am also a training enthusiast, always involved in developing my peers with coaching... -> add more description about training experience and project management.</p>
+			<div class="col-12 col-lg-7 col-xl-7 order-2 order-lg-1">
+				<div class="textBoxStyle textStyleAbout">
+					<p>Hi there, Im Johan.
+					<p>I've been working on <span class="highlight">Web Development</span> for about 3 years, I have experience working on Email Marketing and Content Development (CMS).<br> 
+					I also bring to the table many years of experience working with internal/external clients, and stakeholders like Program Managers, QA Analysts, and others.</p>
+				</div>
+					<p class="textBoxStyle textStyleAbout">In my previous jobs I've been known to be a <span class="highlight">training</span> enthusiast, always involved in developing my peers and documenting processes for training.<br>
+					I'm looking forward to see what the future brings for me with one thing for sure, <span class="highlight">never stop learning!</span></p>
 			</div>
 		</div>
 	</section>
 
-	<a href="#top" class="top px-4 d-inline textStyle">back to top</a><br>
+	<a href="#top" class="top px-4 d-block textStyle">back to top</a><br>
 	<section>
 		<div id="skills">
-			<h2 class="subtitleStyle d-inline">Skills</h2>
+			<div class="row">
+				<h2 class="col-12 col-md-4 col-lg-3 text-center text-md-left subtitleStyle">Skills</h2>
+			</div>
 			<div class="row justify-content-around align-items-start my-5">
-				<div class="col-10 col-sm-8 col-md-6 col-lg-4 align-self-md-start align-self-lg-center justify-content-center justify-content-md-around my-3">
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 align-self-md-start align-self-lg-center justify-content-center justify-content-md-around my-3">
 					<div class="card" style="width: 18rem;">
 					  <i class="fab fa-html5 fa-5x text-center"></i>
 					  <div class="card-body">
 					    <h5 class="card-title text-center pt-2">HTML</h5>
-					    <p class="textStyle textBoxStyleCards">3+ years of experience working with HTML for Email Marketing Campaigns and <strong class="greenHighlight">HTML5</strong> for websites.</p>
+					    <p class="textStyle textBoxStyleCards">3+ years of experience working with HTML for Email Marketing Campaigns and <strong>HTML5</strong> for websites.</p>
 					  </div>
 					</div>
 				</div>
-				<div class="col-10 col-sm-8 col-md-6 col-lg-4 justify-content-center justify-content-md-around my-3">
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 justify-content-center justify-content-md-around my-3">
 					<div class="card" style="width: 18rem;">
 					  <i class="fab fa-css3-alt fa-5x text-center"></i>
 					  <div class="card-body">
 					    <h5 class="card-title text-center pt-2">CSS</h5>
-					    <p class="textStyle textBoxStyleCards">Use of <strong class="greenHighlight">CSS</strong> to create styles ranging from simple changes to HTML tags, to creating animations like the ones on this webiste, using media queries and all things responsive.</p>
+					    <p class="textStyle textBoxStyleCards">Use of <strong>CSS</strong> to create styles ranging from simple changes to HTML tags, to creating animations like the ones on this webiste, using media queries and all things responsive.</p>
 					  </div>
 					</div>
 				</div>
@@ -100,42 +108,74 @@
 					  <i class="fab fa-bootstrap fa-5x text-center"></i>
 					  <div class="card-body">
 					    <h5 class="card-title text-center pt-2">BootStrap</h5>
-					    <p class="textStyle textBoxStyleCards">Using CSS Framework <strong class="greenHighlight">BootStrap</strong> to create responsive and better looking websites in a more efficient manner.</p>
+					    <p class="textStyle textBoxStyleCards">Experience using CSS Framework <strong>BootStrap</strong> to create responsive and better looking websites in a more efficient manner.</p>
 					  </div>
 					</div>
 				</div>
 
-				<!-- This second row is for responsive testing purposes -->
+				<!-- Second Row Starts Here -->
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fas fa-funnel-dollar fa-4x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">Digital Marketing</h5>
+					    <p class="textStyle textBoxStyleCards">2+ years of experience working on <strong>Email Marketing</strong>, plus general Marketing knowledge like the customer journey, the Marketing Funnel, B2B and B2C.</p>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fas fa-laptop-code fa-4x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">Content Management Systems</h5>
+					    <p class="textStyle textBoxStyleCards">Experience working with Content Management Systems <strong>(CMS)</strong> like Team Site and AEM.</p>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fab fa-adobe fa-4x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">PhotoShop</h5>
+					    <p class="textStyle textBoxStyleCards">General knowledge of the <strong>PhotoShop</strong> app, experience slicing and tweaking images for the web.</p>
+					  </div>
+					</div>
+				</div>
+
+				<!-- Third Row Starts Here -->
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fas fa-tasks fa-4x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">Project Management</h5>
+					    <p class="textStyle textBoxStyleCards">Experience managing several <strong>projects</strong> at a time, prioritizing, documenting and reporting to stakeholders.</p>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 my-3">
+					<div class="card" style="width: 18rem;">
+					  <i class="fab fa-windows fa-4x text-center"></i>
+					  <div class="card-body">
+					    <h5 class="card-title text-center pt-2">Microsoft Office</h5>
+					    <p class="textStyle textBoxStyleCards">10+ years working with <strong>MS Office</strong> apps like Word, Power Point and Excel.</p>
+					  </div>
+					</div>
+				</div>
 
 				<div class="col-11 col-sm-8 col-md-6 col-lg-4 my-3">
 					<div class="card" style="width: 18rem;">
 					  <i class="fas fa-chalkboard-teacher fa-4x text-center"></i>
 					  <div class="card-body">
 					    <h5 class="card-title text-center pt-2">Training</h5>
-					    <p class="textStyle textBoxStyleCards">Description about <strong class="greenHighlight">Training</strong></p>
+					    <p class="textStyle textBoxStyleCards">There's nothing more fulfilling than <strong>sharing the knowledge.</strong><br>I love being a point of contact for my team and working together to solve issues.</p>
 					  </div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-8 col-md-6 col-lg-4 my-3">
-					<div class="card" style="width: 18rem;">
-					  <i class="fas fa-laptop-code fa-4x text-center"></i>
-					  <div class="card-body">
-					    <h5 class="card-title text-center pt-2">Content Management Systems</h5>
-					    <p class="textStyle textBoxStyleCards">Description about experience with <strong class="greenHighlight">CMS</strong></p>
-					  </div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-8 col-md-6 col-lg-4 my-3">
-					<div class="card" style="width: 18rem;">
-					  <i class="fas fa-funnel-dollar fa-4x text-center"></i>
-					  <div class="card-body">
-					    <h5 class="card-title text-center pt-2">Digital Marketing</h5>
-					    <p class="textStyle textBoxStyleCards">Description about <strong class="greenHighlight">Digital Marketing</strong>.</p>
-					  </div>
-					</div>
-				</div>
-
-
 			</div>
 		</div>
 	</section>
@@ -144,21 +184,21 @@
 
 <footer>
 		<div id="contact">
-			<div class="row justify-content-around justify-content-md-between align-items-start textBoxStyleFooter textStyle">
-				<div class="col-10 col-md-3">
-						<h5 class="textStyle mt-4">Address</h5>
-						<i class="far fa-map-marker-check"></i><p class="textStyle d-inline"> &nbsp;El Coyol, Alajuela, Costa Rica</p>
+			<div class="row align-items-start textBoxStyleFooter textStyle pb-4">
+				<div class="col-12 col-lg-4 textStyle mt-4 text-left justify-content-start pl-4">
+						<h5 class="d-inline">Address </h5><i class="far fa-map-marker-check"></i>
+						<p class="pt-2">El Coyol, Alajuela<br>Costa Rica <img src="CR_Flag.jpg"></p>
 				</div>
-				<div class="col-10 col-md-4">
-					<h5 class="textStyle mt-4">Contact Information</h5>
-					<i class="far fa-envelope"></i><a href="mailto:johanarrieta16@gmail.com" class="textStyle"> &nbsp;johanarrieta16@gmail.com</a><br>
-					<i class="fas fa-phone-square-alt d-inline"></i><a href="call" class="textStyle"> &nbsp;(506) 8417-5595</a>
+				<div class="col-12 col-lg-4 textStyle mt-4 text-left justify-content-start pl-4 pb-4">
+					<h5>Contact Information</h5>
+					<i class="far fa-envelope"></i><a href="mailto:johanarrieta16@gmail.com" class="textStyle">&nbsp;&nbsp;johanarrieta16@gmail.com</a><br>
+					<i class="fas fa-phone-square-alt d-inline"></i><a href="call" class="textStyle">&nbsp;&nbsp;(506) 8417-5595</a>
 				</div>
-				<div class="col-10 col-md-4">
-					<h5 class="textStyle mt-4">Links</h5>
-					<i class="fab fa-linkedin-in d-inline"></i><a href="https://www.linkedin.com/in/johan-arrieta/" target="_blank" class="textStyle d-inline"> &nbsp;LinkedIn</a><br>
-					<i class="fab fa-github d-inline"></i><a href="https://github.com/johanarrieta16" target="_blank" class="textStyle d-inline"> &nbsp;GitHub</a><br>
-					<i class="far fa-file"></i><a href="download link" class="textStyle"> &nbsp;Download my Resume</a>
+				<div class="col-12 col-lg-4 mt-3 text-left justify-content-start pl-4">
+					<h5 class="textStyle">Links</h5>
+					<i class="fab fa-linkedin-in d-inline"></i><a href="https://www.linkedin.com/in/johan-arrieta/" target="_blank" class="textStyle d-inline">&nbsp;&nbsp;LinkedIn</a><br>
+					<i class="fab fa-github d-inline"></i><a href="https://github.com/johanarrieta16" target="_blank" class="textStyle d-inline">&nbsp;&nbsp;GitHub</a><br>
+					<i class="far fa-file"></i><a href="Resume_Johan_Arrieta.pdf" download target="_blank" class="textStyle">&nbsp;&nbsp;Download my Resume</a>
 				</div>
 			</div>
 		</div>
