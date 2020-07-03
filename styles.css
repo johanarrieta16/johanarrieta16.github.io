@@ -29,7 +29,26 @@ body{
 nav .bg-dark{
 	background-color: #323a45
 }
-
+.top{
+	float: right;
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
+	color: black;
+	font-family: 'Lilita One', cursive;
+	font-size: 1.2rem;
+	border: 1px solid white;
+	border-radius: 10px;
+	}
+.top:hover{
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
+	font-family: 'Lilita One', cursive;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 3px 15px;
+	color: #323a45;
+	text-decoration: none;
+	transform: rotate(3deg);
+	transition: 0.1s;
+}
 /*Main Styles End*/
 
 
@@ -98,17 +117,6 @@ font-family: 'Lilita One', cursive;
 		margin: 0 auto;
 	}
 }
-.top:hover{
-	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
-	font-family: 'Lilita One', cursive;
-	border: 1px solid white;
-	border-radius: 10px;
-	padding: 3px 15px;
-	color: #323a45;
-	text-decoration: none;
-	transform: rotate(1deg);
-	transition: 0.1s;
-}
 .headerStyle:hover{
 	font-size: 1.3rem;
 	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
@@ -147,14 +155,6 @@ font-family: 'Lilita One', cursive;
 	/*background-color: rgb(51, 102, 153);*/
 	transition: 0.6s;
 }
-.top{
-	float: right;
-	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
-	color: black;
-	font-family: 'Lilita One', cursive;
-	font-size: 1.2rem;
-	border: 0;
-	}
 /*About Styles End*/
 
 
