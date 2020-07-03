@@ -150,6 +150,7 @@ font-family: 'Lilita One', cursive;
 .top{
 	float: right;
 	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
+	color: black;
 	font-family: 'Lilita One', cursive;
 	font-size: 1.2rem;
 	border: 0;
