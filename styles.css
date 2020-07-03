@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 */
 /*Google Fonts*/
 
-/*Main Styles*/
+/*Main Styles Start*/
 
 .textStyle{
 	color: white;
@@ -26,153 +26,152 @@ a .textStyle:hover{
 body{
 	margin-right: 0;
 }
-/*Main Styles*/
+nav .bg-dark{
+	background-color: #323a45
+}
+
+/*Main Styles End*/
 
 
-/*HEADER STYLES*/
+
+/*Header Styles Start*/
 
 #johanCenterLogo{
-	padding-top: 5px;
-	margin: 10px 0;
+	margin: 40px 0;
 	font-family: 'Pacifico', cursive;
-	font-size: 5rem;
+	font-size: 6rem;
 	font-weight: 400;
 	position: relative;
+}
+.topMenuItem{
+	color: white;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+.topMenuItem:hover{
+	color: white;
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 85%, rgba(255, 255, 255, 0));
+}
+.topMenuItem span:hover{
+	color: white;
 }
 @media (max-width: 991px) {
 	.stretch{
 		display: block !important;
 		width: 100% !important;
+		font-size: 1.2rem;
 		margin: 0 auto; 
 	}
+}
+.btn:hover{
+	color: black !important;
 }
 #secondNav a{
 	color: white;
 	font-size: 1.5rem;
 }
-@media (max-width: 991px) {
-	#secondNav a:hover{
-		display: block;
-		width: 35%;
-		margin: 0 auto;
-	}
-}
 #secondNav a:hover{
 text-decoration: underline wavy;
-background-color: rgb(51, 102, 153);
--webkit-transition: color .25s linear;
+background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 85%, rgba(255, 255, 255, 0));
+-webkit-transition: color .1s linear;
 transition: color .25s linear;
-transition: background-color .15s linear .1s;
+transition: background-color .1s linear .1s;
+transition: 0.1s;
 font-family: 'Lilita One', cursive;
-border: 1px solid white;
-border-radius: 20px;
 }
 @media (min-width: 991px) {
 	#secondNav:hover a{
-	  filter:blur(3px);
-	  opacity:.8;
+	  filter:blur(2px);
+	  opacity:.9;
 	  transform: scale(.98);
-	  box-shadow:none;
 	}
 	#secondNav:hover a:hover{
 	  transform:scale(1);
-	  filter:blur(0px);
+	  filter:blur(0);
 	  opacity:1;
-	  transition: 0.5s;
+	  transition: 0.2s;
 	}
 }
-.headerStyle:hover{
-	font-size: 1.5rem;
+@media (max-width: 991px) {
+	#secondNav a:hover{
+		display: block;
+		margin: 0 auto;
+	}
 }
-.headerStyle:hover , .top:hover{
-	background-color: rgb(51, 102, 153);
-	-webkit-transition: color .25s linear;
-	transition: color .25s linear;
-	transition: background-color .15s linear .1s;
-	transition: 0.3s;
+.top:hover{
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
 	font-family: 'Lilita One', cursive;
 	border: 1px solid white;
-	border-radius: 20px;
-	padding: 3px 10px;
-	color: white;
+	border-radius: 10px;
+	padding: 3px 15px;
+	color: #323a45;
 	text-decoration: none;
+	transform: rotate(1deg);
+	transition: 0.1s;
 }
-/*HEADER STYLES*/
+.headerStyle:hover{
+	font-size: 1.3rem;
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
+	transition: 0.5s;
+}
+/*Header Styles End*/
 
 
-/*ABOUT STYLES*/
+
+/*About Styles Start*/
 
 .mainImg{
-	border-radius: 30%;
-	margin: 10px 0;
-	width: 100%;
-	height: auto;
-}
-.mainImg:hover{
-	background: rgb(51, 102, 153);
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 85%, rgba(255, 255, 255, 0));
 	border-radius: 50%;
 	border: 1px solid black;
 	transition: 0.5s all;
+	margin: 10px 0;
+	width: 100%;
+	height: auto;	
 }
 .textBoxStyle{
-	background-color: rgba(0,0,0,0.7);
+	background-color: #323a45;
 	padding: 8px;
 	font-size: 1.3rem;
 	margin: 10px;
 	border: 1px 1px 0 1px solid black;
-	border-radius: 0 25px 25px 0;
+	border-radius: 0 10px 10px 0;
 }
 .highlight{
-	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #009973 85%, rgba(255, 255, 255, 0));
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 85%, rgba(255, 255, 255, 0));
 }
 .highlight:hover {
-	border: 1px solid white;
-	border-radius: 10px;
-	padding: 1px 5px;
+	font-style: italic;
+	padding: 1px 1px;
 	font-family: 'Lilita One', cursive;
-	background: rgb(51, 102, 153);
-	transition: 0.5s;
+	/*background-color: rgb(51, 102, 153);*/
+	transition: 0.6s;
 }
 .top{
-	background: #fff;
-	color: black;
-	font-size: 1rem;
-	font-weight: 400;
 	float: right;
-	margin-top: 5px;
-	border: 3px solid rgb(51, 102, 153);
-	border-radius: 3px;
-}
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
+	font-family: 'Lilita One', cursive;
+	font-size: 1.2rem;
+	border: 0;
+	}
+/*About Styles End*/
 
-/*ABOUT STYLES*/
 
-/*SKILLS STYLES*/
+
+/*Skills Styles Start*/
 .subtitleStyle{
 	font-family: 'Lilita One', cursive;
 	font-size: 2rem;
 }
 .subtitleStyle:hover{
 	display: inline;
-	background: rgb(51, 102, 153);
-	border: 1px solid black;
-	border-radius: 10px;
-	padding: 5px;
-	color: white;
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
+	padding: 0 50px;
+	color: black;
 }
-
 #skills{
 	margin-top: 50px;
 }
-/*Figure this out - Para que SKILLS se vea across the screen en mobile
-@media (max-width: 991px) {
-	h2 .d-inline{
-		display: block;
-		width: 50%;
-		margin: 0 auto;
-	}
-}*/
-
-
 div .card-body{
 	padding: 0;
 }
@@ -193,11 +192,8 @@ div .card{
 	border-radius: 5px;
 }
 .textBoxStyleCards:hover{
-	background-color: rgb(51, 102, 153);
-	color: white;
-	-webkit-transition: color .25s linear;
-	transition: color .25s linear;
-	transition: background-color .15s linear .1s;
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
+	color: black;
 	transition: 0.3s;
 	font-family: 'Lilita One', cursive;
 	transition: 0.5s;
@@ -249,12 +245,14 @@ div .card{
 	border: 2px solid #06793c;
 	padding: 5px 0;
 }
+/*Skills Styles End*/
 
-/*Footer Styles*/
 
+
+/*Footer Styles Start*/
 .textBoxStyleFooter{
 	width: 100%;
-	background-color: rgba(0,0,0,0.7);
+	background-color: #323a45;
 	padding: 10px 10px;
 	font-size: 1.3rem;
 	margin: 50px 0 0 0;
@@ -268,42 +266,50 @@ div .card{
 	text-decoration: none;
 	padding: 10px;
 }
+/*Footer Styles End*/
 
-/*Change some animations on mobile*/
+
+
+/*Change some animations on mobile Start*/
 
 @media (max-width: 767px) {
 	.headerStyle , .highlight{
-		border: 1px solid white;
-		border-radius: 10px;
-		padding: 1px 5px;
+		padding: 1px 2px;
 		font-family: 'Lilita One', cursive;
-		background: rgb(51, 102, 153);
+		background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
 	}
 	.headerStyle{
-		font-size: 1.4rem;
+		font-size: 1.3rem;
+		background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
 	}
 	.row .subtitleStyle{
 		font-family: 'Lilita One', cursive;
 		font-size: 2rem;
-		background: rgb(51, 102, 153);
-		border: 1px solid black;
-		border-radius: 10px;
+		background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
 		padding: 5px;
 		color: white;
 	}
 	.mainImg{
-	background: rgb(51, 102, 153);
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
 	border-radius: 50%;
-	border: 4px solid black;
+	border: 2px solid black;
 	}
-	.top{
-	background-color: rgb(51, 102, 153);
+	
+	#secondNav a:hover{
+	text-decoration: underline wavy;
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 85%, rgba(255, 255, 255, 0));
+	width: 50%;
+	transition: 0.1s;
 	font-family: 'Lilita One', cursive;
-	font-size: 1.2rem;
-	border: 1px solid white;
-	border-radius: 20px;
-	padding: 3px 10px;
-	color: white;
-	text-decoration: none;
+	border: 0;
 	}
+	.subtitleStyle{
+	display: inline;
+	background-image: linear-gradient(95deg, rgba(255, 255, 255, 0), #5faeb6 95%, rgba(255, 255, 255, 0));
+	color: black;
+	font-family: 'Lilita One', cursive;
+	font-size: 2rem;
+	}	
 }
+
+/*Change some animations on mobile End*/
